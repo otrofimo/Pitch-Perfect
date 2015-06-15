@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.49.6 clang-602.0.49)"
+options: "1fd5d713e4b0a394d63c4bbee7651ece"
+inputs: 
+- "/Users/Oleg/workspaces/Pitch Perfect/Pitch PerfectTests/Pitch_PerfectTests.swift"
