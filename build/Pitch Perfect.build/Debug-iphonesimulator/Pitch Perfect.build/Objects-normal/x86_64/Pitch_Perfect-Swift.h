@@ -123,7 +123,7 @@ SWIFT_CLASS("_TtC13Pitch_Perfect24PlaySoundsViewController")
 @property (nonatomic) AVAudioFile * __null_unspecified audioFile;
 @property (nonatomic, readonly) float darthVaderPitch;
 @property (nonatomic, readonly) float chipmunkPitch;
-@property (nonatomic, readonly) float largeRoomPitch;
+@property (nonatomic, readonly) float largeRoomReverbSetting;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)stopAudio:(UIButton * __nonnull)sender;

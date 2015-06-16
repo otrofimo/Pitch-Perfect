@@ -18,7 +18,7 @@ class PlaySoundsViewController: UIViewController {
 
     let darthVaderPitch: Float = -1000
     let chipmunkPitch: Float   = 1000
-    let largeRoomPitch: Float  = 100
+    let largeRoomReverbSetting: Float  = 100
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,6 @@ class PlaySoundsViewController: UIViewController {
         audioPlayer.enableRate = true
         audioEngine = AVAudioEngine()
         audioFile = AVAudioFile(forReading: receivedAudio.filePathUrl, error: nil)
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -94,7 +93,7 @@ class PlaySoundsViewController: UIViewController {
     }
 
     @IBAction func playReverbAudio(sender: UIButton) {
-        playAudioWithVariableReverb(largeRoomPitch)
+        playAudioWithVariableReverb(largeRoomReverbSetting)
     }
     
     
